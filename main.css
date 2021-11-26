@@ -318,9 +318,61 @@ a {
 }
 
 .footer a:hover {
-    color: var(--light-blue);
+    color: var(--strong-cyan);
     padding-left: 1px;
     transition: 0.3s ease-in-out all;
+}
+
+.social-buttons a:hover {
+    background-color: var(--strong-cyan);
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
 }
 
 .mx-auto {
@@ -331,4 +383,172 @@ a {
     display: block;
 }
 
-@media only screen and (max-width:375px) {}
+@media only screen and (max-width:375px) {
+
+
+    .hero {
+        background-image: url("/images/bg-header-mobile.png");
+        width: 100%;
+        padding-top: 5rem;
+
+    }
+
+    .hero img {
+        height: 30%;
+        width: 30%;
+        margin: 20px;
+    }
+
+    .hero h2, .snippet h2 {
+        line-height: 2;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero p, .snippet p, p.center {
+        font-size: 16px;
+        margin: 0 auto;
+        width: 90%;
+        line-height: 1.3;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .button {
+        width: 80%;
+    }
+
+    .button:first-child {
+        margin-bottom: 10px;
+    }
+
+    .snippet {
+        display: block
+    }
+
+    .grid-2 {
+        display: block;
+    }
+
+    .services .text {
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .services img {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .services-menu {
+        width: 100%;
+    }
+
+    .d-block-1 {
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .d-block-1 img {
+        margin: 10px 0;
+    }
+
+    .footer {
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
+    .footer .footer-logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer li {
+        padding: 10px 0;
+    }
+
+    body img {
+        width: 100%;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .features-grid {
+        display: block;
+        width: 100%;
+    }
+
+    .feature-item {
+        width: 100%;
+    }
+
+    .feature-item img {
+        width: 30%;
+        object-fit: contain;
+    }
+
+    .feature-item h6, .feature-item p {
+        width: 90%;
+    }
+
+
+    /* Utilities */
+    /* Resizing based on the column size */
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+}
